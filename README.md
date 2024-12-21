@@ -20,4 +20,9 @@ Want to reset the score? Look no further, a simple reset button has been impleme
 
 ## Screens 
 
+<img width="819" alt="IMG_3281" src="https://github.com/user-attachments/assets/759e83e6-7fbc-42e4-af16-0528c0448aca" />
+
+
+<img width="805" alt="IMG_5943" src="https://github.com/user-attachments/assets/2fce72e3-7b0f-41a4-b885-4bf7698d8cc8" />
+
 
