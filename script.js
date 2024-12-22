@@ -6,6 +6,22 @@ let scores = JSON.parse(localStorage.getItem('scores')) || {
 
 document.querySelector('.score').textContent = `Player: ${scores.playerScore}, Computer: ${scores.computerScore}, Ties: ${scores.tieScore}`;
 
+document.querySelector('.js-rock-button').addEventListener('click', () => {
+  playGame('rock');
+});
+
+document.querySelector('.js-paper-button').addEventListener('click', () => {
+  playGame('paper');
+});
+
+document.querySelector('.js-scissors-button').addEventListener('click', () => {
+  playGame('scissors');
+});
+
+document.querySelector('.reset-button').addEventListener('click', () => {
+  resetScore();
+});
+
 function playGame(playerChoice) {
   const choices = ['rock', 'paper', 'scissors'];
   const computerChoice = choices[Math.floor(Math.random() * choices.length)];
